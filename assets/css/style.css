@@ -694,6 +694,7 @@ a:not([class]) {
     background-color: #502A59;
     margin: 0 auto;
     margin-top: 40px;
+    white-space: nowrap;
 }
 .narodnosti-btn__img{
     margin-left: 10px;
@@ -964,11 +965,13 @@ a:not([class]) {
     width: 224px;
     height: 46px;
     margin-right: 80px;
+    white-space: nowrap;
 }
 .main-text-btn2 {
     background-color: #D5773D;
     width: 244px;
     height: 46px;
+    white-space: nowrap;
 }
 .main-text-btn2 img{
     background: #fff;

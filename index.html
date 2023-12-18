@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Сказки народов севера</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+  <style>
+    .carousel-item {
+        height: 690px;  
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background: rgb(202,225,255);
+
+    } 
+    .overlay-image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-position: center;
+        background-size: cover;
+        opacity: 1;
+    }
+    .carousel {
+        width: 100%;
+        z-index: 1;
+        position: relative;
+    }
+    #myCarousel {
+        max-width: 1200px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+  </style>
+  <body>
+    <header>
+        <div class="header-wrapper">
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="header-content__logo">
+                        <img src="assets/img/logo.svg" alt="logo">
+                        <p>Сказки<br> народов севера</p>
+                    </a>
+                    <div class="header-content__link"><a href="catalog.html">Библиотека</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="header-vector" style="background: url(assets/img/header-bg.png);"></div>
+    </header>
+    <main>
+        <section class="banner-section">   
+            
+            <div class="container">
+                <img src="assets/img/banner-img-1.png" alt="banner-decoration" class="banner-img">
+            <img src="assets/img/river-decoration.png" alt="" class="river-decoration">
+                <div class="banner-content">
+                    <h2>Мультимедийная фольклорная библиотека</h2>
+                    <h1>«Сказки народов <br>
+                        Севера»</h1>
+                    <p>Мультимедийная библиотека предназначена для изучения фольклорного наследия и культуры коренных малочисленных народов Севера.</p>
+                    <div class="banner-buttons">
+                        <a href="catalog.html"><button class="banner-buttons__button">Перейти в каталог</button></a>
+                        <a href="narodnosti.html"><button class="banner-buttons__button">Народности</button></a>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <div class="services-decoration">
+            <img src="assets/img/services-decor-1.png" alt="decoration">
+            <img src="assets/img/services-decor-2.png" alt="decoration">
+        </div>
+        <section class="services-section">
+            <img src="assets/img/services-decor-3.png" alt="decoration" class="services-decoration-3">
+            <div class="container">
+                <div class="services-list">
+                    <div class="services-list__item services-item-r">
+                        <div class="services-list__item-img" style="background: url(assets/img/services1.svg);"></div>
+                        <div class="services-list__item-text">
+                            <h4>Красочные рисунки</h4>
+                            <p>Сказки ярко иллюстрировны. В оформлении сказок использованы народные элементы.</p>
+                        </div>
+                    </div>
+                    <div class="services-list__item services-item-l">          
+                        <div class="services-list__item-text">
+                            <h4>Сказки пяти народов Севера</h4>
+                            <p>Ханты, селькупы, коми-зыряне,
+                                тундровые и лесные ненцы</p>
+                        </div>
+                        <div class="services-list__item-img" style="background: url(assets/img/services2.svg);"></div>
+                    </div>
+                    <div class="services-list__item services-item-r">
+                        <div class="services-list__item-img" style="background: url(assets/img/services3.svg);"></div>
+                        <div class="services-list__item-text">
+                            <h4>Поделись сказкой </h4>
+                            <p>Все сказки, представленные  <br> на сайте, можно  <br> распечатать и поделиться  <br> в соцсетях.</p>
+                        </div>
+                    </div>
+                    <div class="services-list__item services-item-l">
+                        <div class="services-list__item-text">
+                            <h4>Сказки озвучены</h4>
+                            <p>Все сказки можно послушать на русском языке в озвучке проффесиональных актеров</p>
+                        </div>
+                        <div class="services-list__item-img" style="background: url(assets/img/services4.svg);"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slider-section">
+
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <img src="assets/img/slider-decoration-2.png" alt="slider-decoration" class="slider-decoration-2">
+                        <img src="assets/img/slider-decoration.png" alt="slider-decoration" class="slider-decoration">
+
+                        <div class="carousel-item active">
+                            <div class="carousel-item__content">
+                                <div class="carousel-item__img" ></div>
+                                <div class="carousel-item__text">
+                                    <h6>Коми-зыряне</h6>
+                                    <p>Коми-зыряне – финно-угорский этнос, представители которого проживают на территории Республики Коми...</p>
+                                    <a href="narodnosti.html"><button class="carousel-item__button">Подробнее</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-item__content">
+                                <div class="carousel-item__img" ></div>
+                                <div class="carousel-item__text">
+                                    <h6>Коми-зыряне</h6>
+                                    <p>Коми-зыряне – финно-угорский этнос, представители которого проживают на территории Республики Коми...</p>
+                                    <a href="narodnosti.html"><button class="carousel-item__button">Подробнее</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-item__content">
+                                <div class="carousel-item__img" ></div>
+                                <div class="carousel-item__text">
+                                    <h6>Коми-зыряне</h6>
+                                    <p>Коми-зыряне – финно-угорский этнос, представители которого проживают на территории Республики Коми...</p>
+                                    <a href="narodnosti.html"><button class="carousel-item__button">Подробнее</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-item__content">
+                                <div class="carousel-item__img" ></div>
+                                <div class="carousel-item__text">
+                                    <h6>Коми-зыряне</h6>
+                                    <p>Коми-зыряне – финно-угорский этнос, представители которого проживают на территории Республики Коми...</p>
+                                    <a href="narodnosti.html"><button class="carousel-item__button">Подробнее</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-item__content">
+                                <div class="carousel-item__img" ></div>
+                                <div class="carousel-item__text">
+                                    <h6>Коми-зыряне</h6>
+                                    <p>Коми-зыряне – финно-угорский этнос, представители которого проживают на территории Республики Коми...</p>
+                                    <a href="narodnosti.html"><button class="carousel-item__button">Подробнее</button></a>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+            
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="z-index: 5;">
+                    <img class="carousel-control-prev-icon" src="assets/img/slider-arrow-left.svg" aria-hidden="true" alt="arrow">
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="z-index: 5;">
+                    <img class="carousel-control-next-icon" src="assets/img/slider-arrow-right.svg" aria-hidden="true" alt="arrow">
+                    <span class="visually-hidden">Next</span>
+                    </button>
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                </div>
+           
+        </section>
+        <section class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <h2>О проекте</h2>
+                    <p>Проект «Мультимедийная фольклорная библиотека «Сказки народов Севера» – победитель конкурса на соискание грантов Президента Российской Федерации для поддержки творческих проектов общенационального значения в области культуры и искусства в 2023 году. Представляет собой электронную мультимедийную фольклорную онлайн-библиотеку, предназначенную для изучения культуры коренных малочисленных народов Севера: ханты, селькупов, коми-зырян, тундровых и лесных ненцев.
+                    </p>
+                    <div class="about-content__buttons">
+                        <a href="narodnosti.html"><button class="about-content__button">Народности</button></a>
+                        <a href="catalog.html"><button class="about-content__button">Сказки</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <img src="assets/img/footer-img-2.png" alt="footer-decoration" class="footer-decoration-2">
+    <footer>
+        <div class="footer-wrapper">
+            <img src="assets/img/footer-img-1.png" alt="footer-decoration" class="footer-decoration-1">
+            <div class="footer-vector1" style="background: url(assets/img/footer-vector1.png);"></div>
+            <div class="footer-vector2" style="background: url(assets/img/footer-vector2.png);"></div>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-link"><a href="about.html">О проекте</a></div>
+                    <div class="footer-text">Муниципальное бюджетное учреждение 
+                    "Губкинский музей освоения Севера" © 2023</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

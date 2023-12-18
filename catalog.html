@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Сказки народов севера</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+  <style>
+    .carousel-item {
+        height: 690px;  
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background: rgb(202,225,255);
+
+    } 
+    .overlay-image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-position: center;
+        background-size: cover;
+        opacity: 1;
+    }
+    .carousel {
+        width: 100%;
+        z-index: 1;
+    }
+  </style>
+  <body>
+    <header>
+        <div class="header-wrapper">
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="header-content__logo">
+                        <img src="assets/img/logo.svg" alt="logo">
+                        <p>Сказки<br> народов севера</p>
+                    </a>
+                    <div class="header-content__link"><a href="catalog.html">Библиотека</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="header-vector" style="background: url(assets/img/header-bg.png);"></div>
+    </header>
+    <main>
+        <div class="catalog-header">
+            <img src="assets/img/catalog-decoration-1.png" alt="catalog-decoration" class="catalog-decoration-1">
+            <img src="assets/img/catalog-decoration-2.png" alt="catalog-decoration" class="catalog-decoration-2">
+            <div class="container">
+                <div class="catalog-header__text">
+                    <h1>Библиотека</h1>
+                    <p>Сказки народов Севера – целый мир, в котором старинные верования, повседневный <br> быт, волшебные легенды и исторические сказания сплетаются в причудливый узор <br> удивительной красоты: яркий, завораживающий и уникальный для каждого северного <br> народа. Устное творчество некогда служило школой жизни для молодых охотников и <br> оленеводов – они впитывали многолетнюю мудрость своего народа. <br>
+                        В этом сборнике взрослые и юные читатели найдут истории на любой вкус: об <br> оленеводах и охотниках, о зверях и птицах, о добрых и злых духах. <br>
+                        Читаем сказки народов Севера, чтобы расширить кругозор и оставаться <br> открытыми миру в любом возрасте!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-filters">
+            <div class="catalog-filters-vector" style="background: url(assets/img/catalog-vector.png);"></div>
+            <div class="catalog-fitlers-wrapper">
+                <div class="container">
+                    <div class="row catalog-fitlers-row">
+                        <div class="catalog-fitler-item fitler-item1 col-xl-auto col-sm-12">Лесные ненцы</div>
+                        <div class="catalog-fitler-item fitler-item2 col-xl-auto col-sm-12">Тундровые ненцы</div>
+                        <div class="catalog-fitler-item fitler-item3 col-xl-auto col-sm-12">Ханты</div>
+                        <div class="catalog-fitler-item fitler-item4 col-xl-auto col-sm-12">Селькупы</div>
+                        <div class="catalog-fitler-item fitler-item5 col-xl-auto col-sm-12">Коми-зыряне</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog">
+            <div class="container">
+                <div class="catalog-items__wrapper row">
+                    <div class="col-xl-4  col-md-6 col-12 catalog-item-wrapper">
+                        <a href="single-post.html" class="catalog-item">
+                            <div class="catalog-item__img" style="background: url(assets/img/catalog1.jpg);"></div>
+                            <div class="catalog-item__content">
+                                <div class="catalog-item__title">Дятел и росомахи</div>
+                                <div class="catalog-item-params">
+                                    <div class="catalog-item-param1"><img src="assets/img/catalog-param1.svg" alt="audio-icon">Аудиосказка</div>
+                                    <div class="catalog-item-param2"><img src="assets/img/catalog-param2.svg" alt="text-icon">Текст</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4  col-md-6 col-12 catalog-item-wrapper">
+                        <a href="single-post.html" class="catalog-item">
+                            <div class="catalog-item__img" style="background: url(assets/img/catalog2.jpg);"></div>
+                            <div class="catalog-item__content">
+                                <div class="catalog-item__title">Кукушка</div>
+                                <div class="catalog-item-params">
+                                    <div class="catalog-item-param1"><img src="assets/img/catalog-param1.svg" alt="audio-icon">Аудиосказка</div>
+                                    <div class="catalog-item-param2"><img src="assets/img/catalog-param2.svg" alt="text-icon">Текст</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4  col-md-6 col-12 catalog-item-wrapper">
+                        <a href="single-post.html" class="catalog-item">
+                            <div class="catalog-item__img" style="background: url(assets/img/catalog3.jpg);"></div>
+                            <div class="catalog-item__content">
+                                <div class="catalog-item__title">Сова и куропатка</div>
+                                <div class="catalog-item-params">
+                                    <div class="catalog-item-param2"><img src="assets/img/catalog-param2.svg" alt="text-icon">Текст</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4  col-md-6 col-12 catalog-item-wrapper">
+                        <a href="single-post.html" class="catalog-item">
+                            <div class="catalog-item__img" style="background: url(assets/img/catalog4.jpg);"></div>
+                            <div class="catalog-item__content">
+                                <div class="catalog-item__title">Как волка проучили</div>
+                                <div class="catalog-item-params">
+                                    <div class="catalog-item-param1"><img src="assets/img/catalog-param1.svg" alt="audio-icon">Аудиосказка</div>
+                                    <div class="catalog-item-param2"><img src="assets/img/catalog-param2.svg" alt="text-icon">Текст</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4  col-md-6 col-12 catalog-item-wrapper">
+                        <a href="single-post.html" class="catalog-item">
+                            <div class="catalog-item__img" style="background: url(assets/img/catalog5.jpg);"></div>
+                            <div class="catalog-item__content">
+                                <div class="catalog-item__title">Как медведь свой хвост потерял</div>
+                                <div class="catalog-item-params">
+                                    <div class="catalog-item-param1"><img src="assets/img/catalog-param1.svg" alt="audio-icon">Аудиосказка</div>
+                                    <div class="catalog-item-param2"><img src="assets/img/catalog-param2.svg" alt="text-icon">Текст</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4  col-md-6 col-12 catalog-item-wrapper">
+                        <a href="single-post.html" class="catalog-item">
+                            <div class="catalog-item__img"></div>
+                            <div class="catalog-item__content">
+                                <div class="catalog-item__title">Как щука и язь воевали</div>
+                                <div class="catalog-item-params">
+                                    <div class="catalog-item-param1"><img src="assets/img/catalog-param1.svg" alt="audio-icon">Аудиосказка</div>
+                                    <div class="catalog-item-param2"><img src="assets/img/catalog-param2.svg" alt="text-icon">Текст</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="catalog-items__loadmore-btn-wrapper">
+                    <button class="catalog-items__loadmore-btn">Загрузить еще</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <img src="assets/img/footer-img-2.png" alt="footer-decoration" class="footer-decoration-2">
+    <footer>
+        <div class="footer-wrapper">
+            <img src="assets/img/footer-img-1.png" alt="footer-decoration" class="footer-decoration-1">
+            <div class="footer-vector1" style="background: url(assets/img/footer-vector1.png);"></div>
+            <div class="footer-vector2" style="background: url(assets/img/footer-vector2.png);"></div>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-link"><a href="about.html">О проекте</a></div>
+                    <div class="footer-text">Муниципальное бюджетное учреждение 
+                    "Губкинский музей освоения Севера" © 2023</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

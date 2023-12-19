@@ -227,6 +227,7 @@ a:not([class]) {
     height: 50.06px !important;
     transform: translateY(-9px) !important;
     z-index: 1;
+    background-position: center !important;
 }
 .header-content {
     display: flex;
@@ -2491,8 +2492,8 @@ a:not([class]) {
         transform: translateX(-240px);
     }
     .services-decoration img:last-child {
-        height: 78px;
-        transform: translateX(345px);
+        height: 105px;
+        transform: translateX(515px);
         margin-bottom: -2px;
     }
 }

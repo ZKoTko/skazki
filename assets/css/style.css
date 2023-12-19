@@ -243,7 +243,7 @@ a:not([class]) {
     font-family: 'Lena';
     font-size: 25px;
     line-height: 84%;
-    margin-left: 12px;
+    margin-left: 12px !important;
 }
 .header-content__link {
     font-size: 18px;
@@ -299,7 +299,7 @@ a:not([class]) {
     margin-bottom: 74px;
 }
 .banner-buttons__button {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px;
     color: #fff;
     border: 0;
@@ -579,11 +579,13 @@ a:not([class]) {
     font-size: 18px;
     margin-bottom: 64px !important;
     text-align: start;
+    padding-left: 12px;
 }
 .about-content__buttons {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 12px;
 }
 .about-content__buttons a:first-child {
     margin-right: 77px;
@@ -620,6 +622,8 @@ a:not([class]) {
     z-index: 3;
 }
 .footer-content {
+    padding-left: 22px;
+    padding-right: 22px;
     color: #fff;
     display: flex;
     align-items: center;
@@ -854,6 +858,18 @@ a:not([class]) {
 .single-post__content {
     margin-top: 35px;
 }
+.single-post__main-gradient {
+    width: 200%;
+    height: 400px;
+    background: rgb(0,0,0);
+    background: linear-gradient(173deg, rgba(0,0,0,0.5) 0%, rgba(217,217,217,0.5) 100%);
+    filter: blur(45px);
+    left: -20px;
+    right: -20px;
+    top: -62px;
+    position: absolute;
+    z-index: 1;
+}
 .single-post__player {
     width: 100%;
     height: 600px;
@@ -898,7 +914,6 @@ a:not([class]) {
 }
 .single-post__player-params {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin-top: 55px;
     padding-bottom: 84px;
@@ -919,6 +934,13 @@ a:not([class]) {
     background-size: cover;
     padding-top: 40px;
     padding-bottom: 130px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.single-post__main-audio-wrapper {
+    z-index: 2;
+    position: relative;
 }
 .single-post__main-audio-wrapper-title h2{
     font-family: 'Neue Machina';
@@ -932,6 +954,8 @@ a:not([class]) {
 }
 .single-post__main-text-wrapper {
     padding-top: 70px;
+    z-index: 2;
+    position: relative;
 }
 .single-post__main-text {
     background-color: #fff;
@@ -1013,6 +1037,8 @@ a:not([class]) {
 }
 .catalog-header__text {
     padding: 0 100px;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
 }
 .catalog-header__text h1 {
     font-family: 'Lena';
@@ -1176,6 +1202,7 @@ a:not([class]) {
     .header-content__logo p{
         font-size: 20px;
         max-width: 130px;
+        margin-left: 8px;
     }
 
     .banner-section {
@@ -1392,6 +1419,7 @@ a:not([class]) {
     .single-post__player-params {
         flex-direction: column;
         padding-bottom: 0px;
+        padding-left: 20px;
     }
     .single-post__player-params-item {
         margin-bottom: 32px;
@@ -1409,9 +1437,14 @@ a:not([class]) {
     }
     .single-post__player-title {
         margin-bottom: 32px;
+        padding-left: 14px;
     }
     .single-post__main-text {
-        padding: 35px 30px;
+        padding: 35px 19px;
+    }
+    .single-post__player-params-item img{
+        width: 60px;
+        height: 60px;
     }
     .single-post__player {
         display: none;
@@ -1434,6 +1467,7 @@ a:not([class]) {
         display: flex;
         width: 100%;
         justify-content: end;
+        padding-left: 0;
     }
     .single-post__main-audio-wrapper-title h2 {
         font-size: 18px;
@@ -1513,6 +1547,7 @@ a:not([class]) {
     .header-content__logo p{
         font-size: 20px;
         max-width: 130px;
+        margin-left: 12px;
     }
 
     .banner-section {
@@ -1701,6 +1736,7 @@ a:not([class]) {
     .single-post__player-params {
         flex-direction: column;
         padding-bottom: 0px;
+        padding-left: 32px;
     }
     .single-post__player-params-item {
         margin-bottom: 32px;
@@ -1738,6 +1774,7 @@ a:not([class]) {
         display: block;
         width: auto;
         justify-content: none;
+        padding-left: 14px;
     }
     .single-post__main-audio-wrapper-title h2 {
         font-size: 32px;
@@ -1958,7 +1995,12 @@ a:not([class]) {
     .single-post__main-text {
         padding: 35px 30px;
     }
-
+    .single-post__player-next {
+        padding-left: 0;
+    }
+    .single-post__player-title {
+        padding-left: 0;
+    }
     .single-post__player {
         height: 600px;
         display: block;
@@ -2167,6 +2209,7 @@ a:not([class]) {
     .single-post__player-params {
         flex-direction: row;
         padding-bottom: 84px;
+        padding-left: 0;
     }
     .single-post__player-params-item {
         margin-bottom: 0;
@@ -2415,6 +2458,11 @@ a:not([class]) {
     }
     .catalog-fitler-item {
         font-size: 20px;
+    }
+
+    .single-post__player-params-item img{
+        width: 80px;
+        height: 80px;
     }
 
 

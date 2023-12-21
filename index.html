@@ -9,7 +9,6 @@
 </head>
   <style>
     .carousel-item {
-        height: 690px;  
         position: relative;
         background-position: center;
         background-size: cover;
@@ -27,15 +26,10 @@
         opacity: 1;
     }
     .carousel {
-        width: 100%;
         z-index: 1;
-        position: relative;
-    }
-    #myCarousel {
-        max-width: 1200px;
-        margin: 0 auto;
-        overflow-x: hidden;
-        overflow-y: hidden;
+        display: flex;
+        width: 100%;
+        align-items: center;
     }
   </style>
   <body>
@@ -58,7 +52,7 @@
             
             <div class="container">
                 <img src="assets/img/banner-img-1.png" alt="banner-decoration" class="banner-img">
-            <img src="assets/img/river-decoration.png" alt="" class="river-decoration">
+                <img src="assets/img/river-decoration.png" alt="" class="river-decoration">
                 <div class="banner-content">
                     <h2>Мультимедийная фольклорная библиотека</h2>
                     <h1>«Сказки народов <br>
@@ -74,6 +68,7 @@
         <div class="services-decoration">
             <img src="assets/img/services-decor-1.png" alt="decoration">
             <img src="assets/img/services-decor-2.png" alt="decoration">
+            
         </div>
         <section class="services-section">
             <img src="assets/img/services-decor-3.png" alt="decoration" class="services-decoration-3">
@@ -112,82 +107,80 @@
             </div>
         </section>
         <section class="slider-section">
+                <div class="container">
+                    <img src="assets/img/slider-decoration-2.png" alt="slider-decoration" class="slider-decoration-2">
+                </div>
+                <img src="assets/img/slider-decoration.png" alt="slider-decoration" class="slider-decoration">
+                <div class="carousel-main-wrapper">
 
-                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <img src="assets/img/slider-decoration-2.png" alt="slider-decoration" class="slider-decoration-2">
-                        <img src="assets/img/slider-decoration.png" alt="slider-decoration" class="slider-decoration">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <img src="assets/img/star-vector.png" alt="star-vector" class="carousel-mask">
 
-                        <div class="carousel-item active">
-                            <div class="carousel-item__content">
-                                <div class="carousel-item__img" ></div>
-                                <div class="carousel-item__text">
-                                    <h6>Коми-зыряне</h6>
-                                    <p>Коми-зыряне – финно-угорский этнос, представители которого проживают на территории Республики Коми...</p>
-                                    <a href="narodnosti.html"><button class="carousel-item__button">Подробнее</button></a>
+                        <div class="carousel-inner">    
+
+                            <div class="carousel-item active">
+                                <div class="carousel-item__content">
+                                    <div class="carousel-item__img" style="background: url(assets/img/sliderimg2.png);">  
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-item__content">
-                                <div class="carousel-item__img" ></div>
-                                <div class="carousel-item__text">
-                                    <h6>Коми-зыряне</h6>
-                                    <p>Коми-зыряне – финно-угорский этнос, представители которого проживают на территории Республики Коми...</p>
-                                    <a href="narodnosti.html"><button class="carousel-item__button">Подробнее</button></a>
+                            <div class="carousel-item">
+                                <div class="carousel-item__content">
+                                    <div class="carousel-item__img" style="background: url(assets/img/sliderimg2.png);">                             
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-item__content">
-                                <div class="carousel-item__img" ></div>
-                                <div class="carousel-item__text">
-                                    <h6>Коми-зыряне</h6>
-                                    <p>Коми-зыряне – финно-угорский этнос, представители которого проживают на территории Республики Коми...</p>
-                                    <a href="narodnosti.html"><button class="carousel-item__button">Подробнее</button></a>
+                            <div class="carousel-item">
+                                <div class="carousel-item__content">
+                                    <div class="carousel-item__img" style="background: url(assets/img/sliderimg2.png);">                                    
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-item__content">
-                                <div class="carousel-item__img" ></div>
-                                <div class="carousel-item__text">
-                                    <h6>Коми-зыряне</h6>
-                                    <p>Коми-зыряне – финно-угорский этнос, представители которого проживают на территории Республики Коми...</p>
-                                    <a href="narodnosti.html"><button class="carousel-item__button">Подробнее</button></a>
+                            <div class="carousel-item">
+                                <div class="carousel-item__content">
+                                    <div class="carousel-item__img" style="background: url(assets/img/sliderimg2.png);">            
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-item__content">
-                                <div class="carousel-item__img" ></div>
-                                <div class="carousel-item__text">
-                                    <h6>Коми-зыряне</h6>
-                                    <p>Коми-зыряне – финно-угорский этнос, представители которого проживают на территории Республики Коми...</p>
-                                    <a href="narodnosti.html"><button class="carousel-item__button">Подробнее</button></a>
+                            <div class="carousel-item">
+                                <div class="carousel-item__content">
+                                    <div class="carousel-item__img" style="background: url(assets/img/sliderimg2.png);">                                
+                                    </div>
                                 </div>
-                            </div>
+                            </div>            
                         </div>
                 
+                        <div class="carousel-texts-wrapper">
+                            <div class="carousel-item__text">
+                                <h6>Коми-зыряне</h6>
+                                <p>Коми-зыряне – финно-угорский этнос, представители которого проживают на территории Республики Коми...</p>
+                                <a href="narodnosti.html"><button class="carousel-item__button">Подробнее</button></a>
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
                     </div>
-            
-                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="z-index: 5;">
-                    <img class="carousel-control-prev-icon" src="assets/img/slider-arrow-left.svg" aria-hidden="true" alt="arrow">
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="z-index: 5;">
-                    <img class="carousel-control-next-icon" src="assets/img/slider-arrow-right.svg" aria-hidden="true" alt="arrow">
-                    <span class="visually-hidden">Next</span>
-                    </button>
+                    
 
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    </div>
+                    
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="z-index: 5;">
+                        <img class="carousel-control-prev-icon" src="assets/img/slider-arrow-left.svg" aria-hidden="true" alt="arrow">
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="z-index: 5;">
+                        <img class="carousel-control-next-icon" src="assets/img/slider-arrow-right.svg" aria-hidden="true" alt="arrow">
+                        <span class="visually-hidden">Next</span>
+                        </button>
                 </div>
+                
            
         </section>
         <section class="about-section">
